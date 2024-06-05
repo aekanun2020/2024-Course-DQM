@@ -1,0 +1,21 @@
+-------------------------- installation steps --------------------------
+1. Download the Miniconda installer from https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+
+2. Install the installaler
+
+3. Open your Start menu and search for "Anaconda Prompt (miniconda3)".
+
+4. Execute command at the Prompt: conda create --name python3.8 python=3.8 numpy pandas jupyterlab pymssql sqlalchemy
+
+-------------------------- complete installation ----------------------
+
+
+
+
+
+
+-------------------------- Launch Jupyterlab ----------------------------
+
+1. Execute command at the Prompt: conda activate python3.8
+
+2. Execute command at the Prompt: jupyter lab --port=8888
